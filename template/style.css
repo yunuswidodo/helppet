@@ -1,7 +1,28 @@
-.navbar-brand-centered{
-    position: absolute;
-        left: 50%;
-        display: block;
-        width: 160px;
-        text-align: center;
+.helpet-title{
+    color:black;
+    font-weight: bold;
+}
+.btn-login {
+    background-color: #4DCA9D;
+    color: white;
+    padding-left:30px ;
+    padding-right:30px ;
+
+    border-radius: 14px;
+}
+.btn-login:hover {
+        background-color: #5AE4B3;
+        color: white;
+}
+.btn-register {
+    background-color: #4DCA9D;
+    color: white;
+    padding-left:30px ;
+    padding-right:30px ;
+    border-radius: 14px;
+}
+
+.btn-register:hover {
+    background-color: #5AE4B3;
+    color: white;
 }
