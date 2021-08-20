@@ -26,3 +26,28 @@
     background-color: #5AE4B3;
     color: white;
 }
+
+.navbar-toggler{
+    margin-top: 15px;
+    outline: none;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color:#4DCA9D;
+}
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow:none;
+}
+
+.navbar-toggler:hover{
+    outline: none;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: #5AE4B3;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-menu{
+        display: none;
+    }
+}
