@@ -51,3 +51,34 @@
         display: none;
     }
 }
+
+.logo-need-help{
+    color: black;
+}
+.need-help{
+    color: black;
+}
+
+.logo-hepet{
+    color:black;
+}
+
+.helpet{
+    color: black;
+}
+.cat{
+    color: black;    
+}
+
+.cat:hover{
+    color:#C4C4C4;
+}
+
+.dog{
+    color: black;
+}
+
+.dog:hover{
+    color:#C4C4C4;
+}
+

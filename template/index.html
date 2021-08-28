@@ -11,7 +11,8 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container-fluit">
+      <!-- navbar -->
         <nav class="navbar navbar-expand-md" style="background-color: #C4C4C4;">
           <div class="container">
               <ul class="nav navbar-nav mx-auto">
@@ -32,6 +33,43 @@
               </ul>
           </div>
         </nav>
+        <!-- end navbar -->
+        <!-- sidebar -->
+          <div class="row flex-nowrap">
+              <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0  mt-100px" style="background-color:#4DCA9D;" >
+                  <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-4 min-vh-100">
+                      <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                              <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                                  <i class="fas fa-hands-helping logo-need-help"></i> <span class="ms-1 d-none d-sm-inline need-help">Need Helps</span></a>
+                              <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px-0 cat"> <i class="fas fa-cat"></i><span class="ms-1 d-none d-sm-inline">Cat</span></a>
+                                  </li>
+                                  <li>
+                                      <a href="#" class="nav-link px-0 dog"> <i class="fas fa-dog"></i><span class="ms-1 d-none d-sm-inline">Dog</span></a>
+                                  </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                  <i class="fas fa-people-carry logo-hepet"></i> <span class="ms-1 d-none d-sm-inline helpet">Helpet</span> </a>
+                                  <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px-0 cat"> <i class="fas fa-cat"></i> <span class="ms-1 d-none d-sm-inline">Cat</span></a>
+                                  </li>
+                                  <li>
+                                      <a href="#" class="nav-link px-0 dog"> <i class="fas fa-dog"></i><span class="ms-1 d-none d-sm-inline">Dog</span></a>
+                                  </li>
+                              </ul>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col py-3">
+                  Content area...
+              </div>
+          </div>
+      </div>
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
@@ -50,7 +88,7 @@
             </div>
           </div>
         </div>
-
+        <!-- end modal  -->
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
